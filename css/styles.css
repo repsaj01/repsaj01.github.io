@@ -3027,7 +3027,7 @@ textarea.form-control-lg {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.25);
 }
-.btn:disabled, .btn.disabled, fieldset:disabled .btn {
+.btn:disabled, .btn.disabled, fieldset:disabled .btn, a.disabled{
   pointer-events: none;
   opacity: 0.65;
 }
@@ -11741,4 +11741,23 @@ main h2, main .h2 {
   display: block;
   max-width: 100%;
   height: auto
+}
+
+
+table tr.center-middle-align td {
+  text-align: left !important;
+  vertical-align: middle !important;
+}
+.fancy-td {
+    padding-left: 0.5rem;
+    font-size: 25pt;
+}
+.no-link-style {
+  text-decoration: none;
+  color: inherit !important;
+}
+
+.center-elements {
+  display: flex;
+  justify-content: center;
 }
